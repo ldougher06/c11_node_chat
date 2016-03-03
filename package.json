@@ -1,0 +1,45 @@
+{
+  "name": "c11_node_chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "serve": "nodemon server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ldougher06/c11_node_chat.git"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "mocha": true,
+      "node": true,
+      "es6": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+      "no-console": 0
+    }
+  },
+  "author": "Logan Dougher <logan.dougher@gmail.com> (https://logandougher.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ldougher06/c11_node_chat/issues"
+  },
+  "homepage": "https://github.com/ldougher06/c11_node_chat#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "nodemon": "^1.9.1",
+    "pg": "^4.5.1",
+    "pg-native": "^1.10.0",
+    "socket.io": "^1.4.5"
+  },
+  "devDependencies": {
+    "bower": "^1.7.7",
+    "chalk": "^1.1.1"
+  }
+}

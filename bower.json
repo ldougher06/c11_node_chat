@@ -1,0 +1,23 @@
+{
+  "name": "c11_node_chat",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "Logan Dougher <logan.dougher@gmail.com> (https://logandougher.com/)"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ldougher06/c11_node_chat",
+  "moduleType": [
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "socket.io-client": "^1.4.5"
+  }
+}
